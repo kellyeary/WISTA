@@ -69,14 +69,15 @@ a {
 
 h1 {
   color: #fff;
-  font-size: 4.5em;
+  font-size: 3.5em;
   text-align: center;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 
@@ -220,7 +221,7 @@ header {
   grid-template-columns: 1fr;
   grid-row-gap: 10px;
   justify-content: center;
-  padding: 60px 0;
+  padding: 60px 30px;
 }
 
 .logo {
@@ -251,6 +252,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
   width: 15%;
   margin: 40px auto;
+  padding: 5px;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -292,8 +294,17 @@ header {
   }
 }
 
+.about h4{
+  margin-bottom: 40px;
+}
+
 .about p{
-  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.partnerLogos{
+  padding: 10px 0;
+  max-width: 100%;
 }
 
 .careers{
