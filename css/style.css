@@ -75,7 +75,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   h1 {
     font-size: 2.5em;
   }
@@ -90,7 +90,7 @@ h2 {
 
 h3 {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.6em;
   font-weight: 300;
 }
 
@@ -102,7 +102,7 @@ h4 {
 
 h5 {
   font-size: 2em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
 }
 
@@ -178,7 +178,7 @@ li:before {
   align-items: center;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .preheader {
     grid-template-columns: 1fr;
   }
@@ -192,18 +192,18 @@ li:before {
   padding: 5px;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 900px) {
+  .button {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .button {
     border: 2px solid #f15b40;
     width: 100%;
     float: none;
     margin: 10px auto;
-  }
-}
-
-@media (min-width: 601px) and (max-width: 900px) {
-  .button {
-    width: 20%;
   }
 }
 
@@ -231,17 +231,17 @@ header {
   margin-top: 100px;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 900px) {
   .logo {
-    max-width: 40%;
+    max-width: 25%;
     margin: 30px auto;
     margin-top: 100px;
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .logo {
-    max-width: 25%;
+    max-width: 40%;
     margin: 30px auto;
     margin-top: 100px;
   }
@@ -255,7 +255,7 @@ header {
   padding: 5px;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .heroButton {
     width: 90%;
   }
@@ -270,7 +270,7 @@ header {
   grid-template-columns: 1fr 1fr;
 }
 
-@media (min-width: 0px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .agendaAbout {
     display: grid;
     grid-template-columns: 1fr;
@@ -288,7 +288,7 @@ header {
   background-color: #eee;
 }
 
-@media (min-width: 0px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .about {
     padding: 100px 40px;
   }
@@ -319,7 +319,7 @@ header {
   border-bottom: 2px dotted #58595b;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .wrapperList{
     margin: 50px 15px 20px 15px;
   }
@@ -339,7 +339,7 @@ header {
   }
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .wrapperDrop{
     margin: 0px 15px;
     display: grid;
